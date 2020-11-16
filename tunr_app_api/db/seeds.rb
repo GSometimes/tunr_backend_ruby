@@ -5,3 +5,11 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Song.create([
+    { name: 'Blank Space', artist: "Taylor Swift", length:"3:51"},
+    { name: 'Style', artist: "Taylor Swift", length:"3:51"},
+    { name: 'Shake It Off', artist: "Taylor Swift", length:"3:39"},
+    { name: 'Bad Blood', artist: "Taylor Swift", length:"3:31"},
+    { name: 'I Wish You Would', artist: "Taylor Swift", length:"3:27"},
+  ])
