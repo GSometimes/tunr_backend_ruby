@@ -7,9 +7,9 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 Song.create([
-    { name: 'Blank Space', artist: "Taylor Swift", length:"3:51"},
-    { name: 'Style', artist: "Taylor Swift", length:"3:51"},
-    { name: 'Shake It Off', artist: "Taylor Swift", length:"3:39"},
-    { name: 'Bad Blood', artist: "Taylor Swift", length:"3:31"},
-    { name: 'I Wish You Would', artist: "Taylor Swift", length:"3:27"},
+    { name: 'Blank Space', artist: "Taylor Swift", length:"3:51", favorite:false},
+    { name: 'Style', artist: "Taylor Swift", length:"3:51", favorite:false},
+    { name: 'Shake It Off', artist: "Taylor Swift", length:"3:39", favorite:false},
+    { name: 'Bad Blood', artist: "Taylor Swift", length:"3:31", favorite:false},
+    { name: 'I Wish You Would', artist: "Taylor Swift", length:"3:27", favorite:false},
   ])
